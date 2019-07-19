@@ -1,0 +1,236 @@
+html,
+body {
+  width: 100%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; }
+
+* {
+  padding: 0;
+  margin: 0;
+  transition: all 300ms; }
+
+h1 {
+  font-size: 80px; }
+
+h2 {
+  font-size: 50px; }
+
+h3 {
+  font-size: 25px;
+  font-weight: lighter;
+  margin: 20px; }
+
+a {
+  padding: 20px;
+  text-decoration: none;
+  color: #e7e7e7;
+  cursor: pointer;
+  transition: all 300ms; }
+
+a:hover {
+  background: #8a8a8a59; }
+
+header {
+  background-image: url(assets/header-img.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  min-height: 400px; }
+
+.top-sec {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center; }
+
+.logo {
+  color: #e7e7e7;
+  margin-right: 100px;
+  display: inline-block;
+  font-weight: bold; }
+
+.main-head {
+  display: flex;
+  height: calc(100% - 65px);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #e7e7e7;
+  letter-spacing: 3px;
+  cursor: default; }
+
+.main-head p {
+  width: 70%;
+  margin: 15px auto;
+  background: #8a8a8a59; }
+
+.btn {
+  background: #4f4feb;
+  color: #fff;
+  border-radius: 30px;
+  border: none;
+  min-width: 250px;
+  width: 20%;
+  height: 65px;
+  padding: 10px;
+  font-size: 22px;
+  transition: all 300ms;
+  cursor: pointer;
+  margin: 15px; }
+
+.btn:focus, .btn:active, .btn:hover {
+  outline: none;
+  background: #7373da; }
+
+footer {
+  width: 100%;
+  height: 140px;
+  line-height: 140px;
+  background: #3273ff; }
+  footer p {
+    text-align: center;
+    color: #e6e6e694;
+    font-size: 25px; }
+
+@media only screen and (max-width: 960px) {
+  h1 {
+    font-size: 50px; }
+
+  .nav-container > a {
+    padding: 20px; }
+
+  .top-sec {
+    flex-direction: column;
+    align-items: center;
+    background: #4b4b4b4d; }
+
+  .logo {
+    margin: 5px; } }
+.slogan-co {
+  text-align: center;
+  margin: 40px 0px; }
+
+.slogan-co p {
+  color: #8a8a8a59;
+  font-size: 18px; }
+
+.info-sec {
+  display: flex;
+  justify-content: center;
+  height: auto; }
+
+.info-img {
+  width: 100%;
+  min-width: 385px;
+  height: 560px;
+  background-image: url("assets/sec2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.info-text {
+  width: 100%;
+  min-width: 385px;
+  margin-top: 60px;
+  text-align: center; }
+
+.info-text * {
+  margin: 50px; }
+
+.info-text h2 {
+  font-weight: lighter;
+  color: #8a8a8a59; }
+
+.info-text p {
+  display: inline-block;
+  width: 50%; }
+
+.items-co {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.item {
+  border: 1px solid #cfcfcf;
+  width: 29%;
+  min-width: 300px;
+  height: auto;
+  margin: 50px 10px 0px 10px;
+  text-align: center; }
+
+.item * {
+  padding-top: 25px; }
+
+.item p {
+  display: inline-block;
+  width: 60%;
+  color: #adadaded;
+  line-height: 20px;
+  padding-bottom: 50px; }
+
+.icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 30px;
+  line-height: 80px;
+  border-radius: 50%;
+  background: #3273ff;
+  color: #fff;
+  margin-top: 60px; }
+
+.icon:hover {
+  background: #4781ff;
+  color: #ccc; }
+
+.video-co {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  max-width: 1280px;
+  height: 100vh;
+  margin: 60px auto; }
+
+.video {
+  width: 100%;
+  height: 100%; }
+
+.video-des {
+  position: absolute;
+  margin: auto;
+  width: 50%; }
+  .video-des .play-pause {
+    margin-bottom: 70px;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    color: #fff;
+    opacity: 0.8; }
+  .video-des p {
+    color: #fff;
+    font-size: 1.5vw; }
+  .video-des h3 {
+    color: #fff;
+    font-size: 4vw; }
+
+.article-co .info-sec:nth-child(2) {
+  flex-direction: row-reverse; }
+
+.article-co .info-sec:nth-child(1) .info-img {
+  background-image: url("assets/image3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+.article-co .info-sec:nth-child(2) .info-img {
+  background-image: url("assets/image4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+.article-co .info-sec:nth-child(3) .info-img {
+  background-image: url("assets/image5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+@media only screen and (max-width: 730px) {
+  .info-sec {
+    flex-wrap: wrap; } }
+
+/*# sourceMappingURL=style.css.map */
