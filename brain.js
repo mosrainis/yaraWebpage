@@ -57,5 +57,7 @@ function add(e) {
     item.innerHTML = new_item;
     items_co.appendChild(item);
     // Create the reset button when a new item has been added
-    createButton();
+    if (!resetbtn_co.hasChildNodes()) {
+        createButton();
+    }
 }
