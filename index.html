@@ -40,36 +40,42 @@
                 <h3>Lorem ipsum dolor sit amet</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
-            <div class="items-co">
-                <div class="item">
+            <div class="items-co" id="items-container" id="parent-co">
+                <div class="item no-rotate" onclick="del(this)" onmouseover="rotate(this)" onmouseout="def(this)">
                     <div class="icon fa fa-amazon fa-2x"></div>
                     <h4>Here is the title</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div class="item">
+                <div class="item no-rotate" onclick="del(this)" onmouseover="rotate(this)" onmouseout="def(this)">
                     <div class="icon fa fa-archive fa-2x"></div>
                     <h4>Here is the title</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div class="item">
+                <div class="item no-rotate" onclick="del(this)" onmouseover="rotate(this)" onmouseout="def(this)">
                     <div class="icon fa fa-amazon fa-2x"></div>
                     <h4>Here is the title</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div class="item">
+                <div class="item no-rotate" onclick="del(this)" onmouseover="rotate(this)" onmouseout="def(this)">
                     <div class="icon fa fa-apple fa-2x"></div>
                     <h4>Here is the title</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div class="item">
+                <div class="item no-rotate" onclick="del(this)" onmouseover="rotate(this)" onmouseout="def(this)">
                     <div class="icon fa fa-amazon fa-2x"></div>
                     <h4>Here is the title</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div class="item">
+                <div class="item no-rotate" onclick="del(this)" onmouseover="rotate(this)" onmouseout="def(this)">
                     <div class="icon fa fa-balance-scale fa-2x"></div>
                     <h4>Here is the title</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div id="btn-co">
+                <div id="reset_btn"></div>
+                <div id="add_btn">
+                    <input onclick="add(this)" class="btn" type="button" value="ADD ITEMS">
                 </div>
             </div>
             <div class="video-co">
@@ -119,5 +125,6 @@
             </footer>
         </div>
     </div>
+    <script src="brain.js"></script>
 </body>
 </html>
